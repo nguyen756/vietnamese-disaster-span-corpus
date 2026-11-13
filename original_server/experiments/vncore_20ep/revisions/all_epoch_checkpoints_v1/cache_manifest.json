@@ -1,0 +1,49 @@
+{
+  "protocol_sha256": "9907ee2d105fb22a19304bf2cc1930f5bdc33a8717957a8836080456feb6a771",
+  "preprocessing_code_sha256": "6a26e2b83c9623b4e37e9c2eb9ab76ac3f87d01565279132abe07c1b7e305930",
+  "versions": {
+    "tokenizers": "0.22.2",
+    "py-vncorenlp": "0.1.4",
+    "pyjnius": "1.9.0"
+  },
+  "inputs": {
+    "data/train.jsonl": "78da3a6753f71d9c587062264eed9c029fd798e814663ae6ebcfe4aaca158359",
+    "data/validation.jsonl": "33306f4a2228a1909b92151a248e3641569dc2e76d0230fd386322aa5596a835",
+    "assets/phobert-base/model.safetensors": "82fe890b5423243ad21e5c914a9179eb0b4c6b58779ae444d326d2ac0a4644d5",
+    "assets/phobert-base/config.json": "71df79a67a65b1ee472938d0dff77297c0d77e20fef1af41e0013b1d384efb0d",
+    "assets/phobert-base/tokenizer.json": "70ca5afd1c45f0481a73372cc1c2b6dae7acf2f15931ba3c81e2ac044ffe63ef",
+    "assets/phobert-base/vocab.txt": "dffd7543c401fb6567253ae7c3313004532c33d062525250049c616544bad777",
+    "assets/phobert-base/bpe.codes": "9dfe53fb8abbddd3387da99641c36e00bee757a3679aad9cf0a7cdc4b30f6ef8",
+    "reference/annotation_schema.json": "d21b8dea67e1076d64a8d032fdcfb90ce234c87d050b041d7926578fc3dfec88"
+  },
+  "assets": {
+    "VnCoreNLP-1.2.jar": "9e2811cdbc2ddfc71d04be5dc36e185c88dcd1ad4d5d69e4ff2e1369dccf7793",
+    "models/wordsegmenter/vi-vocab": "0a47c5b55bbce163029d37730a67b9479740388695c29c106c112b815613eaa5",
+    "models/wordsegmenter/wordsegmenter.rdr": "9e62f96bd93e37a24f364238e8d8ae986fa5dad6dbc9f4eae622ab3651b7fa06"
+  },
+  "vncorenlp_repository_commit": "62bbc58fe5d113c898eae112656be97dcf50b3a0",
+  "files": {
+    "alignment_audit.jsonl": "a0ae751275666850e352275d3f7ca6bbf13d1d58ae176822b9bf256230c3e46f",
+    "development.jsonl": "38eb7c1fa59856918a08bc4444186133aa8e67a5b5d38363bdce6d57dce8a1b4",
+    "statistics.json": "abd19e9f335971674dc9f2fe9a5fa9cd9a5a0cc145045f8236d8611feac9764e",
+    "train.jsonl": "5f6b513a6a34bd98f23f962334480845d2c555352a788356a3f9488aaf8cac6c"
+  },
+  "gold_test_preprocessed": false,
+  "alternative_segmenter_used": false,
+  "statistics": {
+    "train": {
+      "rows": 9686,
+      "multi_chunk_rows": 0,
+      "alignment_edit_rows": 0,
+      "normalization_changed_rows": 1425,
+      "max_encoder_pieces": 182
+    },
+    "development": {
+      "rows": 803,
+      "multi_chunk_rows": 0,
+      "alignment_edit_rows": 0,
+      "normalization_changed_rows": 171,
+      "max_encoder_pieces": 213
+    }
+  }
+}

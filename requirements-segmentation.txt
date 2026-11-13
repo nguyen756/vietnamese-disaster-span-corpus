@@ -1,0 +1,5 @@
+-r requirements-model.txt
+py-vncorenlp==0.1.4
+pyjnius==1.9.0
+numpy
+pytest

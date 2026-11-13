@@ -1,0 +1,29 @@
+{
+  "release_version": "paper-v9-standoff-v3",
+  "code_license": "undecided",
+  "annotation_license": "CC BY-NC 4.0",
+  "core_counts": {
+    "train": 9686,
+    "validation": 803,
+    "test": 1000
+  },
+  "E6_rows": 300,
+  "offline_contract_tests": 9,
+  "python_files_parsed": 61,
+  "source_text_in_public_JSONL": false,
+  "credential_pattern_scan": "PASS",
+  "original_core_hashes": {
+    "train": "1486116eb09d9325e6992a7740ff00077f7718b0b7a14fb64c4fed40e3a57967",
+    "validation": "fcba8af0fff0ed4e070ceb58bd0af83aa16d7fe45dfef769f0a1c6f00c1e67ad",
+    "test": "810f82157349dae444c2c57af7e99f92ff559ce04150fc22cf9017c116b8be8b"
+  },
+  "core_local_reconstruction_rows": 11489,
+  "E6_local_reconstruction_rows": 300,
+  "exact_P2_recipe_reconstruction": "PASS",
+  "E1_and_supervised_and_E4_score_reproduction": "PASS",
+  "E2_oracle_threshold_score_reproduction": "PASS",
+  "missing_source_fail_closed": "PASS",
+  "HF_Arrow_loader": "PASS",
+  "live_URL_reconstruction": "not established",
+  "new_model_training_or_API_generation": false
+}

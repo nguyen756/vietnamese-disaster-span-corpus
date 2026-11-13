@@ -1,0 +1,16 @@
+Annotation and documentation license
+
+The dataset creators release their annotation labels and dataset documentation
+under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+Creators:
+
+License summary: https://creativecommons.org/licenses/by-nc/4.0/
+Controlling legal terms: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Scope: this license applies to the creators' annotation labels and documentation.
+It does not grant rights in third-party source article text, names, trademarks,
+or other material the creators do not control. The original source-text rights
+remain with their respective rightsholders. Stored URLs identify the source
+metadata available in the research archive and do not themselves establish a
+source-text license. See DATA_RIGHTS.md for the release's rights status.

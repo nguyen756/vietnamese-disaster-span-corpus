@@ -1,0 +1,2 @@
+# Offline compiler/scoring/reconstruction require Python >=3.10 and the standard library.
+# Training/inference dependencies are separate and optional.

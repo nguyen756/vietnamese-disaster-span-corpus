@@ -1,0 +1,111 @@
+{
+  "artifact_sha256": {
+    "runs/phobert_seed42/metrics_epoch_06.json": "64cc181e2ad92bbe31ca76709e67909486be31804311a58dbff6b9a6200acdd9",
+    "runs/phobert_seed42/STATUS.json": "f52dfdd47923e104287a0884609bfa51470de200cb5ff5ec8e71b6841757134f",
+    "runs/phobert_seed42/metrics_epoch_16.json": "4c381c758be2dc1dfe16fb4e9cdd60a612aa113181a5e57e56e663162fbfc6bf",
+    "runs/phobert_seed42/metrics_epoch_01.json": "7594b8eb0c57501b850adad5892c4661e47750e52eca85bc532a442eec538499",
+    "runs/phobert_seed42/metrics_epoch_07.json": "0285ca36127b6753c959f203ed77377922b8298e5fd2e5e6b59cccce14bbf6f5",
+    "runs/phobert_seed42/metrics_epoch_15.json": "d53ad88a192bfbbcf16e787632503e066e0493a2e2de9b4dfc2f33dad2e9f662",
+    "runs/phobert_seed42/metrics_epoch_19.json": "a6a7a43612c2860718b439c550da57412b7b05dd485ad1acbe6bb15552ec95b7",
+    "runs/phobert_seed42/metrics_epoch_03.json": "cd37cd09019243303c1ff8871f855031edb269fc8313db7e2a3816dc1c87fb34",
+    "runs/phobert_seed42/metrics_epoch_18.json": "c494f2fd34431a3d9dcf163502723f5e8008d19c6aed951204244c96f0c9c242",
+    "runs/phobert_seed42/metrics_epoch_17.json": "badaf10b093b00f4cf1b45c3311f11b22d0d8cdec07c6aec8d49ed0b0bceceb8",
+    "runs/phobert_seed42/metrics_epoch_08.json": "f249cab34babefedc3fc526000c281e7abc272051452090339a0af4b988b924c",
+    "runs/phobert_seed42/metrics_epoch_09.json": "b02dca9f86c0ec248c32457b652d49967d2a78ae540135a007afa4013482806d",
+    "runs/phobert_seed42/metrics_epoch_11.json": "d1dcb24d5efab3b37166598c0a987af74e2f77e2c475c7b4e00073bd830895aa",
+    "runs/phobert_seed42/metrics_epoch_12.json": "12284426f0bf11202749f395f3ff969acc141973ffaf2b79588a1fb74c884a43",
+    "runs/phobert_seed42/results.json": "5c830a75e1f2280c069ec54cbb135ad00523b4df278cd3dcd849ed020cfe514a",
+    "runs/phobert_seed42/history.csv": "d918e85af673e5f1952f7a59fbab945d799a3cdc893792a1fe1c725002821850",
+    "runs/phobert_seed42/metrics_epoch_10.json": "a9a56f942ab304856dd7cef9db8092cfe2974dfe4ec1dd0ce926862decfab4c6",
+    "runs/phobert_seed42/metrics_epoch_05.json": "04e22fb4a530721d520456019521602e2cf511601bf100c6950213847685de9c",
+    "runs/phobert_seed42/metrics_epoch_13.json": "bfef80465f323b25ed04ddc5c6a84b9063cd58e2cbc1fae56e83fa98482c86da",
+    "runs/phobert_seed42/metrics_epoch_04.json": "fc06eda41d02a5216d263c1b4b82a79f84f6494142d3a90c6fd50f7e2f96a428",
+    "runs/phobert_seed42/metrics_epoch_20.json": "35eac25578ae9301b270da7efeb9007d9b154949475cd5f1f834c6f1fe8828f5",
+    "runs/phobert_seed42/history.json": "68ab340c646318f03ce4e0d5b84e22665d116a303926db3b158048d46f63408e",
+    "runs/phobert_seed42/experiment_config.json": "46f4b2d7e43aabc39ff485eee6968cfea149a34d6f9b0cf4cad0474952d005e0",
+    "runs/phobert_seed42/metrics_epoch_14.json": "569b379e8e67b5ab7bfcb403b38a83c60ee692ffc2246e17b40d50171f8e03d7",
+    "runs/phobert_seed42/metrics_epoch_02.json": "2971d4779aa55bfa3824a62258e35336569d8595b954b353137ae0fc72d0cfca"
+  },
+  "checkpoint_stat": {
+    "runs/phobert_seed42/checkpoints/epoch_13.pt": {
+      "size": 764789047,
+      "mtime_ns": 1794084269826464289
+    },
+    "runs/phobert_seed42/checkpoints/epoch_20.pt": {
+      "size": 764797239,
+      "mtime_ns": 1794085730382134565
+    },
+    "runs/phobert_seed42/checkpoints/epoch_06.pt": {
+      "size": 764780855,
+      "mtime_ns": 1794082810435581556
+    },
+    "runs/phobert_seed42/checkpoints/epoch_08.pt": {
+      "size": 764783159,
+      "mtime_ns": 1794083227189065638
+    },
+    "runs/phobert_seed42/checkpoints/epoch_01.pt": {
+      "size": 764774967,
+      "mtime_ns": 1794081768795584993
+    },
+    "runs/phobert_seed42/checkpoints/epoch_09.pt": {
+      "size": 764784375,
+      "mtime_ns": 1794083435042643543
+    },
+    "runs/phobert_seed42/checkpoints/epoch_19.pt": {
+      "size": 764796087,
+      "mtime_ns": 1794085522033839179
+    },
+    "runs/phobert_seed42/checkpoints/epoch_03.pt": {
+      "size": 764777335,
+      "mtime_ns": 1794082185341924426
+    },
+    "runs/phobert_seed42/checkpoints/epoch_18.pt": {
+      "size": 764794935,
+      "mtime_ns": 1794085313207247071
+    },
+    "runs/phobert_seed42/checkpoints/epoch_14.pt": {
+      "size": 764790199,
+      "mtime_ns": 1794084478505675892
+    },
+    "runs/phobert_seed42/checkpoints/epoch_10.pt": {
+      "size": 764785527,
+      "mtime_ns": 1794083644059849240
+    },
+    "runs/phobert_seed42/checkpoints/epoch_02.pt": {
+      "size": 764776119,
+      "mtime_ns": 1794081977290741518
+    },
+    "runs/phobert_seed42/checkpoints/epoch_15.pt": {
+      "size": 764791415,
+      "mtime_ns": 1794084687622972241
+    },
+    "runs/phobert_seed42/checkpoints/epoch_17.pt": {
+      "size": 764793719,
+      "mtime_ns": 1794085104043210822
+    },
+    "runs/phobert_seed42/checkpoints/epoch_12.pt": {
+      "size": 764787895,
+      "mtime_ns": 1794084061233376357
+    },
+    "runs/phobert_seed42/checkpoints/epoch_16.pt": {
+      "size": 764792567,
+      "mtime_ns": 1794084895889317700
+    },
+    "runs/phobert_seed42/checkpoints/epoch_07.pt": {
+      "size": 764782007,
+      "mtime_ns": 1794083018839431268
+    },
+    "runs/phobert_seed42/checkpoints/epoch_05.pt": {
+      "size": 764779639,
+      "mtime_ns": 1794082602291354187
+    },
+    "runs/phobert_seed42/checkpoints/epoch_11.pt": {
+      "size": 764786679,
+      "mtime_ns": 1794083852640473588
+    },
+    "runs/phobert_seed42/checkpoints/epoch_04.pt": {
+      "size": 764778487,
+      "mtime_ns": 1794082393718131381
+    }
+  }
+}

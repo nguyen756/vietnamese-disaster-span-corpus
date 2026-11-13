@@ -1,0 +1,22 @@
+{
+  "offsets": "Zero-based end-exclusive Unicode code points in reconstructed sentence",
+  "labels": [
+    "DISASTER_TYPE",
+    "WEATHER_CAUSE",
+    "LOCATION",
+    "TIME",
+    "DAMAGE",
+    "CASUALTY",
+    "AFFECTED_POPULATION",
+    "RESPONSE_ACTION",
+    "RESPONSE_AGENCY",
+    "WARNING_LEVEL"
+  ],
+  "text_included": false,
+  "reconstruction_rules": [
+    "exact",
+    "collapse_whitespace"
+  ],
+  "source_offsets": "Unicode code points in the stored document field named by metadata/documents.jsonl",
+  "entities": "List of objects with start, end and label; exact unchanged original annotation"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_unit": "sentence-level Vietnamese named entity recognition",
+  "offset_convention": "zero-based Unicode code-point offsets; end-exclusive",
+  "entity_representation": ["start", "end", "label"],
+  "labels": [
+    "DISASTER_TYPE",
+    "WEATHER_CAUSE",
+    "LOCATION",
+    "TIME",
+    "DAMAGE",
+    "CASUALTY",
+    "AFFECTED_POPULATION",
+    "RESPONSE_ACTION",
+    "RESPONSE_AGENCY",
+    "WARNING_LEVEL"
+  ],
+  "guideline": "../../documentation/annotation_guideline.md",
+  "source_annotation_fields": ["document_id", "text", "label"]
+}

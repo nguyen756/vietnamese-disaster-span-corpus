@@ -1,0 +1,22 @@
+{
+  "files": {
+    "bpe.codes": {
+      "sha256": "9dfe53fb8abbddd3387da99641c36e00bee757a3679aad9cf0a7cdc4b30f6ef8",
+      "bytes": 1135173
+    },
+    "config.json": {
+      "sha256": "71df79a67a65b1ee472938d0dff77297c0d77e20fef1af41e0013b1d384efb0d",
+      "bytes": 557
+    },
+    "tokenizer.json": {
+      "sha256": "70ca5afd1c45f0481a73372cc1c2b6dae7acf2f15931ba3c81e2ac044ffe63ef",
+      "bytes": 3132320
+    },
+    "vocab.txt": {
+      "sha256": "dffd7543c401fb6567253ae7c3313004532c33d062525250049c616544bad777",
+      "bytes": 895321
+    }
+  },
+  "distributed": false,
+  "source": "Preserved PhoBERT tokenizer assets; upstream model terms apply"
+}

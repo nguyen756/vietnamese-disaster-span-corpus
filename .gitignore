@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env*
+*token*.secret
+work/
+reconstructed/
+outputs/
+*.safetensors
+*.pt
+*.bin
+*.gguf
+*.zip

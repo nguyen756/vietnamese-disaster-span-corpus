@@ -1,0 +1,1 @@
+Historical source/scope/split/annotation-compiler algorithms for inspection. Private source snapshots, labels, session records and manifests are not bundled. These scripts retain original relative-path contracts; they are not a live recrawler or a complete reconstruction of unknown historical LLM sessions. The frozen public splits must not be regenerated with a new shuffle.

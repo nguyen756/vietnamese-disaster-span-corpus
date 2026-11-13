@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    42,
+    999,
+    2026
+  ],
+  "selection": "maximum original development strict micro-F1, earliest ties",
+  "bilstm": {
+    "selected_epochs": [
+      9,
+      6,
+      11
+    ],
+    "Gold_F1_mean": 57.2792,
+    "Gold_F1_sample_SD": 2.47,
+    "E6_F1_mean": 43.846924,
+    "E6_F1_sample_SD": 2.209171
+  },
+  "bilstm_crf": {
+    "selected_epochs": [
+      11,
+      6,
+      11
+    ],
+    "Gold_F1_mean": 61.0418,
+    "Gold_F1_sample_SD": 1.41,
+    "E6_F1_mean": 47.95893,
+    "E6_F1_sample_SD": 1.939005
+  },
+  "E4_consistency_strict_F1": 98.64536,
+  "E4_is_independent_accuracy": false
+}

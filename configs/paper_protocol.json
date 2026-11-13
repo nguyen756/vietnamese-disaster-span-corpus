@@ -1,0 +1,28 @@
+{
+  "paper": "v9",
+  "dataset_version": "paper-v9-standoff-v3",
+  "epochs": 20,
+  "seeds": [
+    42,
+    999,
+    2026
+  ],
+  "heads": [
+    "bilstm",
+    "bilstm_crf"
+  ],
+  "primary_checkpoint": "development-best, earliest tie",
+  "Gold_inference": "CPU FP32",
+  "LLMs": {
+    "M1": "Qwen3-8B GGUF Q4_K_M CPU 12 threads; greedy; thinking disabled",
+    "M2": "gpt-6-luna dated alias; temperature 0, top_p 1, reasoning none"
+  },
+  "LLM_output_cap": 1024,
+  "LLM_attempts_per_sentence": 1,
+  "primary_routing_run": "M1-P2",
+  "routing": "reference oracle only; fixed K=4",
+  "live_API_execution_enabled": false,
+  "weights_public": false,
+  "code_license": "undecided",
+  "annotation_license": "CC BY-NC 4.0"
+}

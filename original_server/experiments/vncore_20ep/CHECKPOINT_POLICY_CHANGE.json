@@ -1,0 +1,12 @@
+{
+  "changed_at": "2026-11-08T04:18:28.252551+07:00",
+  "scope": "future runs only; no training or Gold scoring launched",
+  "checkpoint_retention": "one atomically updated best_checkpoint.pt, strict development micro-F1 improvement",
+  "training_epochs": 20,
+  "primary_gold_checkpoint_epoch": 20,
+  "final_epoch20_weights_retained": true,
+  "resume_behavior": "resume from saved best epoch and replay later epochs; archive previous attempt metrics/predictions",
+  "legacy_revision": "revisions/all_epoch_checkpoints_v1",
+  "existing_run_artifacts_modified": false,
+  "synthetic_tests_passed": 14
+}

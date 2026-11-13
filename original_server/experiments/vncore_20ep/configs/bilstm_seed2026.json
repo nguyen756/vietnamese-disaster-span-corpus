@@ -1,0 +1,51 @@
+{
+  "name": "VnCoreNLP three-architecture ablation: nine runs, twenty complete epochs",
+  "architectures": [
+    "phobert",
+    "bilstm",
+    "bilstm_crf"
+  ],
+  "seeds": [
+    42,
+    999,
+    2026
+  ],
+  "epochs": 20,
+  "early_stopping": false,
+  "precision": "fp32",
+  "batch_size": 8,
+  "threads": 6,
+  "train_layers": 4,
+  "encoder_lr": 3e-05,
+  "head_lr": 0.0005,
+  "weight_decay": 0.01,
+  "warmup_fraction": 0.1,
+  "gradient_clip": 1.0,
+  "lstm_hidden": 128,
+  "dropout": 0.2,
+  "learning_rate_schedule": "linear warmup over 10% of the full twenty-epoch horizon, then linear decay to zero",
+  "primary_checkpoint": "fixed epoch 20",
+  "primary_gold_evaluation_epoch": 20,
+  "best_development_checkpoint": "recorded separately; highest development exact-span/class micro-F1, earliest tie; not used to select the primary Gold model",
+  "checkpoint_policy": "best_only: atomically replace best_checkpoint.pt only when development exact-span/class micro-F1 strictly improves; retain full optimizer/scheduler/RNG state there; retain final epoch-20 weights separately; no per-epoch full checkpoint files",
+  "segmenter": "VnCoreNLP-1.2 RDRSegmenter, annotators=[wseg], no Underthesea fallback",
+  "prediction_units": "original source Unicode token units; shared weighted subword pooling for all heads",
+  "labels": "21 BIO tags for the ten frozen entity classes plus O",
+  "crf": "learned unconstrained linear-chain CRF, token-mean negative log likelihood, Viterbi; shared orphan-I-to-B span decoding",
+  "training_rows": 9686,
+  "development_rows": 803,
+  "gold_test_rows": 1000,
+  "deferred_rows_excluded": 1563,
+  "gold_sha256": "9af6856e03c4813ccd3c8523fcf119765b72cbe3a9ab36a75f3ce8b37315b03b",
+  "gold_policy": "manual evaluation only after all nine epoch-20 models are locked; no Gold scoring inside training",
+  "gold_test_previously_used": true,
+  "limitations": [
+    "Most training/development annotations are AI-generated and retain known semantic issues.",
+    "Gold Test has been evaluated in a previous experiment; this is a follow-up comparison, not an untouched test.",
+    "Twenty epochs are a fixed reporting budget, not a claim of optimal generalization."
+  ],
+  "architecture": "bilstm",
+  "seed": 2026,
+  "device": "cpu",
+  "output": "experiments/vncore_20ep/runs/bilstm_seed2026"
+}

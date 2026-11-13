@@ -1,0 +1,15 @@
+{
+  "requested_at": "2026-11-08T13:22:57.415171+07:00",
+  "run": "bilstm_seed42",
+  "device": "cuda",
+  "epochs": 20,
+  "precision": "fp32",
+  "checkpoint_retention": "best_only",
+  "fixed_errors": [
+    "working directory corrected to server_training_12680",
+    "--device gpu corrected to --device cuda"
+  ],
+  "existing_cpu_runs_preserved": true,
+  "mixed_devices_recorded_in_final_reports": true,
+  "tests_passed": 16
+}

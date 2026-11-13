@@ -1,0 +1,10 @@
+{
+  "live_execution_enabled": false,
+  "primary_run": "M1-P2",
+  "runs": [
+    "M1-P1",
+    "M1-P2",
+    "M2-P1",
+    "M2-P2"
+  ]
+}

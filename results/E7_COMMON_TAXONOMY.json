@@ -1,0 +1,87 @@
+{
+  "method": "Strict-unmatched side; priority any same-category positive overlap with counterpart, exact-boundary wrong category, residual. Many-to-one taxonomy, not matching credit. Same definition as v7 supervised/human table.",
+  "A2_vs_A1": {
+    "misses": {
+      "counts": {
+        "boundary": 1237,
+        "remaining": 590,
+        "category": 73
+      },
+      "total": 1900,
+      "percent": {
+        "boundary": 65.10526315789474,
+        "category": 3.8421052631578947,
+        "remaining": 31.05263157894737
+      }
+    },
+    "extras": {
+      "counts": {
+        "remaining": 1624,
+        "boundary": 939,
+        "category": 73
+      },
+      "total": 2636,
+      "percent": {
+        "boundary": 35.62215477996965,
+        "category": 2.769347496206373,
+        "remaining": 61.60849772382397
+      }
+    }
+  },
+  "Qwen_P2_vs_Gold": {
+    "misses": {
+      "counts": {
+        "boundary": 1051,
+        "remaining": 2366,
+        "category": 72
+      },
+      "total": 3489,
+      "percent": {
+        "boundary": 30.12324448265979,
+        "category": 2.063628546861565,
+        "remaining": 67.81312697047865
+      }
+    },
+    "extras": {
+      "counts": {
+        "boundary": 1087,
+        "remaining": 751,
+        "category": 72
+      },
+      "total": 1910,
+      "percent": {
+        "boundary": 56.910994764397905,
+        "category": 3.769633507853403,
+        "remaining": 39.31937172774869
+      }
+    }
+  },
+  "Luna_P2_vs_Gold": {
+    "misses": {
+      "counts": {
+        "remaining": 825,
+        "boundary": 1044,
+        "category": 58
+      },
+      "total": 1927,
+      "percent": {
+        "boundary": 54.17747794499222,
+        "category": 3.009859885832901,
+        "remaining": 42.812662169174885
+      }
+    },
+    "extras": {
+      "counts": {
+        "remaining": 759,
+        "boundary": 1272,
+        "category": 58
+      },
+      "total": 2089,
+      "percent": {
+        "boundary": 60.89037817137386,
+        "category": 2.7764480612733364,
+        "remaining": 36.333173767352804
+      }
+    }
+  }
+}
